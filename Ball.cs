@@ -15,4 +15,7 @@ public class Ball : MonoBehaviour {
 		
 	// Update is called once per frame
 
-
+	void Update () {
+		if (!hasStarted) {
+			// Lock the ball relative to the paddle.
+			this.transform.position = paddle.transform.position + paddleToBallVector;
