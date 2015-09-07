@@ -8,4 +8,6 @@ public class Brick : MonoBehaviour {
 	public static int breakableCount = 0;
 	public GameObject smoke;
 
-
+	private int timesHit;
+	private LevelManager levelManager;
+	private bool isBreakable;
