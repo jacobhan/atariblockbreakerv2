@@ -11,3 +11,5 @@ public class Brick : MonoBehaviour {
 	private int timesHit;
 	private LevelManager levelManager;
 	private bool isBreakable;
+	
+	// Use this for initialization
