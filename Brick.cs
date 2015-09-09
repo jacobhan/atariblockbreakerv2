@@ -13,3 +13,5 @@ public class Brick : MonoBehaviour {
 	private bool isBreakable;
 	
 	// Use this for initialization
+	void Start () {
+		isBreakable = (this.tag == "Breakable");
