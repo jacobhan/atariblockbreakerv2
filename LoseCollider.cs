@@ -12,7 +12,7 @@ public class LoseCollider : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D (Collision2D collision) {
-		
+		print ("Collision");
 	}
 
 }
