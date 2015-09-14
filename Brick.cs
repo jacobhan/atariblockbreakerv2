@@ -23,4 +23,6 @@ public class Brick : MonoBehaviour {
 		levelManager = GameObject.FindObjectOfType<LevelManager>();
 	}
 	
-
+	void Update () {
+	
+	}
