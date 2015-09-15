@@ -34,7 +34,9 @@ public class Brick : MonoBehaviour {
 		}
 	}
 	
-	
+	void HandleHits () {
+		timesHit++;
+		int maxHits = hitSprites.Length + 1;
 	
 	
 	
