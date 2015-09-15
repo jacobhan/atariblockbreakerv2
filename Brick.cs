@@ -42,6 +42,10 @@ public class Brick : MonoBehaviour {
 			levelManager.BrickDestoyed();
 			PuffSmoke();
 			Destroy(gameObject);
+	} else {
+			LoadSprites();
+		}
+	}
 	
 	
 	
