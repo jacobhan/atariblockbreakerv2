@@ -37,7 +37,11 @@ public class Brick : MonoBehaviour {
 	void HandleHits () {
 		timesHit++;
 		int maxHits = hitSprites.Length + 1;
-	
+	if (timesHit >= maxHits) {
+			breakableCount--;
+			levelManager.BrickDestoyed();
+			PuffSmoke();
+			Destroy(gameObject);
 	
 	
 	
