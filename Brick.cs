@@ -47,7 +47,8 @@ public class Brick : MonoBehaviour {
 		}
 	}
 	
-	
+	void PuffSmoke () {
+		GameObject smokePuff = Instantiate (smoke, transform.position, Quaternion.identity) as GameObject;
 	
 	
 	
