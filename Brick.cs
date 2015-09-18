@@ -60,7 +60,7 @@ public class Brick : MonoBehaviour {
 		} else {
 			Debug.LogError ("Brick sprite missing");
 		}
-	
-
+	}
+}
 
 
