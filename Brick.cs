@@ -54,6 +54,9 @@ public class Brick : MonoBehaviour {
 	
 	void LoadSprites () {
 		int spriteIndex = timesHit - 1;
+		
+		if (hitSprites[spriteIndex] != null) {
+			this.GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
 	
 
 
