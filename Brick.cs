@@ -52,7 +52,8 @@ public class Brick : MonoBehaviour {
 		smokePuff.particleSystem.startColor = gameObject.GetComponent<SpriteRenderer>().color;
 	}
 	
-	
+	void LoadSprites () {
+		int spriteIndex = timesHit - 1;
 	
 
 
