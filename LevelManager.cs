@@ -7,4 +7,6 @@ public class LevelManager : MonoBehaviour {
 		Brick.breakableCount = 0;
 		Application.LoadLevel (name);
 	}
-  
+  	
+  	public void QuitRequest(){
+		Debug.Log ("Quit requested");
