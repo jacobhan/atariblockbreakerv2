@@ -16,5 +16,5 @@ public class LevelManager : MonoBehaviour {
 	public void LoadNextLevel() {
 		Brick.breakableCount = 0;
 		Application.LoadLevel(Application.loadedLevel + 1);
-
+	}
 
