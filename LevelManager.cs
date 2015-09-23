@@ -18,3 +18,4 @@ public class LevelManager : MonoBehaviour {
 		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 
+	public void BrickDestoyed() {
