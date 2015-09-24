@@ -21,4 +21,6 @@ public class LevelManager : MonoBehaviour {
 	public void BrickDestoyed() {
 		if (Brick.breakableCount <= 0) {
 		LoadNextLevel();
+		}
 	}	
+}
