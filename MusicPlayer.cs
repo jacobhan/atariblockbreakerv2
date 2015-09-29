@@ -6,6 +6,6 @@ public class MusicPlayer : MonoBehaviour {
 
   	// Use this for initialization
 	void Start () {
-		
+		if (instance != null) {	
 		
 		
