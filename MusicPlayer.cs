@@ -8,5 +8,6 @@ public class MusicPlayer : MonoBehaviour {
 	void Start () {
 		if (instance != null) {	
 			Destroy (gameObject);
+			print ("Duplicate music player self-destructing!");
 		
 		
