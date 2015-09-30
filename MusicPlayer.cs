@@ -10,4 +10,4 @@ public class MusicPlayer : MonoBehaviour {
 			Destroy (gameObject);
 			print ("Duplicate music player self-destructing!");
 		} else {
-		
+			instance = this;
