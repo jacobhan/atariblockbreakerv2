@@ -19,3 +19,4 @@ public class MusicPlayer : MonoBehaviour {
 	void Update () {
 
 	}
+}
