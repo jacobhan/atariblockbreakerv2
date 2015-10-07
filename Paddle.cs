@@ -7,3 +7,5 @@ public class Paddle : MonoBehaviour {
   public float minX, maxX;
   
   private Ball ball;
+
+	void Start () {
