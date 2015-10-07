@@ -2,10 +2,9 @@ using UnityEngine;
 using System.Collections;
 
 public class Paddle : MonoBehaviour {
-  
-  public bool autoPlay = false;
-  public float minX, maxX;
-  
-  private Ball ball;
-
+	public bool autoPlay = false;
+ 	public float minX, maxX;
+ 
+  	private Ball ball;
+  	
 	void Start () {
