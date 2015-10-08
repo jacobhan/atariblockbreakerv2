@@ -9,3 +9,4 @@ public class Paddle : MonoBehaviour {
   	private Ball ball;
   	
 	void Start () {
+		ball = GameObject.FindObjectOfType<Ball>();
