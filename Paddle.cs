@@ -17,3 +17,4 @@ public class Paddle : MonoBehaviour {
 		if (!autoPlay) {
 			MoveWithMouse();
 		} else {
+			AutoPlay();
