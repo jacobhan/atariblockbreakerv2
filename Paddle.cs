@@ -20,3 +20,6 @@ public class Paddle : MonoBehaviour {
 			AutoPlay();
 		}
 	}
+	
+	void AutoPlay() {
+	
