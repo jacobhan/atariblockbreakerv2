@@ -26,3 +26,4 @@ public class Paddle : MonoBehaviour {
 		Vector3 ballPos = ball.transform.position;
 		paddlePos.x = Mathf.Clamp(ballPos.x, minX, maxX);
 		this.transform.position = paddlePos;
+	}
