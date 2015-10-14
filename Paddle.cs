@@ -27,3 +27,5 @@ public class Paddle : MonoBehaviour {
 		paddlePos.x = Mathf.Clamp(ballPos.x, minX, maxX);
 		this.transform.position = paddlePos;
 	}
+	
+	void MoveWithMouse () {
