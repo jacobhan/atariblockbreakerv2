@@ -30,3 +30,5 @@ public class Paddle : MonoBehaviour {
 	
 	void MoveWithMouse () {
 		Vector3 paddlePos = new Vector3 (0.5f, this.transform.position.y, 0f);
+		float mousePosInBlocks = Input.mousePosition.x / Screen.width * 16;
+		
