@@ -34,3 +34,4 @@ public class Paddle : MonoBehaviour {
 		paddlePos.x = Mathf.Clamp(mousePosInBlocks, minX, maxX);
 		this.transform.position = paddlePos;
 	}
+}
